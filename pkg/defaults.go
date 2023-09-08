@@ -1,6 +1,6 @@
 package defaults 
 
-func defaultString(input, defaultValue string) string {
+func DefaultString(input, defaultValue string) string {
   if input == "" {
     return defaultValue
   }  
